@@ -44,7 +44,7 @@ O también, utilizar la extensión de vscode "Extension Pack for Java" de Micros
 Para ejecución local con un servidor SonarQube en Docker:
 
 ```bash
-mvn clean verify org.sonarsource.scanner.maven:sonar   -Dsonar.projectKey=com.universidad:productosservice   -Dsonar.projectName='productosservice'   -Dsonar.host.url=http://localhost:9000   -Dsonar.token={TOKEN_GENERADO_SONARQUBE}
+mvn clean verify org.sonarsource.scanner.maven:sonar   -Dsonar.projectKey=com.universidad:pedidosu11   -Dsonar.projectName='pedidosu11'   -Dsonar.host.url=http://localhost:9000   -Dsonar.token={TOKEN_GENERADO_SONARQUBE}
 ```
 
 ## Capturas del dashboard (actual)
